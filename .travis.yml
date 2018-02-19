@@ -9,7 +9,7 @@ python:
 install:
   - pip install -r requirements.txt
   - pip install tox-travis
-  - pip install coverage
+  - pip install codecov
 
 script:
   - tox
@@ -17,4 +17,4 @@ script:
   - coverage report -m
 
 after_success:
-  - coveralls
+  - codecov
