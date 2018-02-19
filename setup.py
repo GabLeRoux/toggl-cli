@@ -1,5 +1,5 @@
 from distutils.core import setup
-setup(name='toggl-cli',
+setup(name='toggl-cli-bob',
       version='0.0.1',
       description='A simple command-line interface for toggl.com',
       author='D. Robert Adams',
